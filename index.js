@@ -10,7 +10,7 @@ dotenv.config({})
 
 const app = express();
 const options = {
-    origin: process.env.BASE_URL,
+    origin: "https://ful-io-frontend.vercel.app",
     credentials: true
 }
 app.use(express.json());
